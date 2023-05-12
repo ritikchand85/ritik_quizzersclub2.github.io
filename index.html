@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectFoodWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1230px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@400;700&family=Sigmar&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <img src="img/newclogo3.png" alt="Code With Coffee">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#menu">Menu</a></li>
+            <li class="item"><a href="#services">Our Services</a></li>
+            <!-- <li class="item"><a href="#">Order Online</a></li> -->
+            <!-- <li class="item"><a href="#">About us</a></li> -->
+            <li class="item"><a href="#contact">Contact and Booking</a></li>
+        </ul>
+
+    </div>
+    <section id="home">
+        <h1 class="h-primary">Welcome To <strong><strong>"The Coffee Corner"</strong> </strong></h1><br><br>
+        <p>Indulge in the aromatic world of coffee as we take you on a sensory adventure that delights both your taste
+            buds and your soul. At <i><strong>Code With Coffee</strong></i></p><br>
+        <p>Visit us today and embark on an unforgettable journey through the art of coffee at <i><strong>The Coffee Corner
+                    </strong></i>. Your perfect cup awaits.</p><br>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="menu-container">
+        <h1 class="h-primary">Menu</h1> <!--center class align text at center-->
+        <div id="menu">
+            <div class="box">
+                <img src="img/coffeedrinks.jpg" alt="">
+                <h2 class="h-secondary">Coffee Drinks:</h2>
+                <p> Espresso, 
+                    Americano, 
+                    Cappuccino, 
+                    Latte, 
+                    Mocha, 
+                    Macchiato, 
+                    Flat White, 
+                    Affogato, 
+                    Iced Coffee</p>
+
+            </div>
+            <div class="box">
+                <img src="img/cuptea.jpg" alt="">
+                <h2 class="h-secondary">Tea and Other Hot Beverages</h2>
+                <p>Assorted Teas (black, green, herbal, etc.), 
+                    Chai Latte, 
+                    Hot Chocolate, 
+                    Matcha Latte, 
+                    Steamed Milk with Flavor Syrups</p>
+
+            </div>
+            <div class="box">
+                <img src="img/icecup.jpg" alt="">
+                <h2 class="h-secondary">Iced Beverages:</h2>
+                <p>Iced Coffee, 
+                    Iced Latte, 
+                    Iced Mocha, 
+                    Iced Tea (various flavors), 
+                    Frappuccino or Blended Drinks</p>
+
+            </div>
+
+
+        </div>
+    </section><hr>
+    <section class="services-container">
+        <h1 class="h-primary">Our Services</h1> <!--center class align text at center-->
+        <div id="services">
+            <div class="box">
+                <img src="img/businessnew.webp" alt="">
+                <h2 class="h-secondary">Bussiness Meetings</h2>
+                <p>We can provides conducive environment for business meetings, offering a relaxed yet professional
+                    setting outside of the office. Our Cafe with reliable Wi-Fi connectivity and easily accessible
+                    charging outlets are ideal for business meetings</p>
+
+            </div>
+            <div class="box">
+                <img src="img/couplesnew.jpeg" alt="">
+                <h2 class="h-secondary">For Couples</h2>
+                <p>We offer a selection of beverages and treats specifically designed for couples. These could include
+                    signature drinks, shared dessert platters, or even customized creations to celebrate special
+                    occasions.</p>
+
+            </div>
+            <div class="box">
+                <img src="img/catering.webp" alt="">
+                <h2 class="h-secondary">Catering Services</h2>
+                <p>We often provide catering services to meet the needs of various events and gatherings. Our Cafe can
+                    work with clients to create customized catering menus that align with specific event themes.</p>
+
+            </div>
+
+
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us & Book Online</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="insta">Instagram Id: </label>
+                    <input type="insta" name="name" id="insta" placeholder="Enter your Instagram Id">
+                </div><br>
+                <div>
+                    <label for="Booktype">Booking Type</label>
+                    <select name="mybooking" id="booking">
+                        <option value="Catering">Catering</option>
+                        <option value="ForCouples" selected>ForCouples</option>
+                        <option value="business">Bussiness Meeting</option>
+                    </select>
+                </div><br>
+                <div class="form-group">
+                    <label for="message">Message And Orders: </label>
+                    <textarea name="message" id="message" cols="30" rows="5"
+                        placeholder="Write your Message and Your Orders Here!"></textarea>
+                </div><br>
+                <div>
+                    <button class="btn2">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="center">
+            Copyright &copy; www.CodeWithCoffee.com. All rights reserved! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact No.-7987617699 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EmailId-ayushmantamrakar1nitb@gmail.com
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
